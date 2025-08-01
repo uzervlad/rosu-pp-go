@@ -1,0 +1,16 @@
+[package]
+name = "rosu-pp-go"
+version = "0.1.0"
+# '24 made #[no_mangle], used by interoptopus, unsafe :(
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+interoptopus = "0.14.27"
+rosu-pp = "3.1.0"
+
+[dev-dependencies]
+interoptopus_backend_c = "0.14.25"
