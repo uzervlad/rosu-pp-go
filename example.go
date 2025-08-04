@@ -1,8 +1,9 @@
 package main
 
 /*
-#cgo LDFLAGS: -L./lib -lrosu_pp_go
-#include "./lib/rosu_pp_go.h"
+#cgo CFLAGS: -I./lib
+#cgo LDFLAGS: -L./lib -lm -lrosu_pp_go
+#include <rosu_pp_go.h>
 #include <stdlib.h>
 */
 import "C"
