@@ -1,4 +1,3 @@
-#![warn(clippy::pedantic)]
 #![allow(clippy::redundant_locals)]
 
 use std::fmt::{self, Display, Formatter};
